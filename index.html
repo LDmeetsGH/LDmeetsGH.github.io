@@ -1,3 +1,5 @@
+<!--Link: https://ldmeetsgh.github.io 
+Publish: Login to github.com; Copy latest version to Index.html; Go to you repository; Edit Index.html document inside repository with the latest code -->
 <!DOCTYPE html>
 <html lang="de">
 
@@ -52,9 +54,9 @@
         .myBox {
             border: none;
             padding: 5px;
-            font: 18px/30px sans-serif;
+            font: 15px/20px sans-serif;
             width: 200px;
-            height: 100px;
+            height: 80px;
             overflow: scroll;
         }
 
@@ -79,10 +81,35 @@
             }
     </style>
 
+    <!-- Script for auto scroll element ; margin not from interest, selection via element -->
+    <style> 
+        #GFG_DOWN { 
+            margin-top: 1px;
+        } 
+    </style> 
+    <script src= 
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+    </script> 
+
+    <!-- Border around GoogleMaps - Not in use, needs to be improved
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .BorderMaps {
+            background-position: center;
+            border: 5px;
+            border-color: black;
+        }
+    </style> -->
+
 </head>
 
-<body>
+<body style="text-align:center;">
     <!-- Stopped by trying to send the information via email https://www.w3schools.com -->
+    
     <form method="post" action="mailto:lars.donart@freenet.de">
 
         Name:<input type="text" name="Name" size="15" maxlength="15" /><br />
@@ -109,19 +136,21 @@
 
     <!-- Text to display on webpage -->
     <div class="bg">
-        <center>
+            <br>
+            <font color="White" size="7"> <strong> Wir heiraten ♡ </strong> </font>
+            <br>
+            <font color="White" size="4"> Wann: 14.08.2021 </font>
+            <br>
+            <font color="White" size="4"> Wo: </font>
+
+        <button onclick="gfg_Run()"> 
+        Karte 
+        </button> 
+
             <br>
             <br>
             <br>
-            <font color="White" size="8"> <strong> Wir heiraten ♡ </strong> </font>
-            <br>
-            <font color="White"> Wann: 14.08.2021 </font>
-            <br>
-            <font color="White"> Wo: Selztaldom Groß-Winternheim und Hof Herberg Essenheim </font>
-            <br>
-            <br>
-            <br>
-            <center> <font color="White" size="6"> <strong> Rückmeldung </strong> </font> </center>
+            <font color="White" size="6"> <strong> Rückmeldung </strong> </font>
             <br>
             <br>
             <input type="text" placeholder="Name" name="name" id="name">
@@ -139,12 +168,29 @@
             <div id="Ausgabe">
             </div>
             <br>
-        </center>
     </div>
 
+    <!-- Auto scroll -->
+    <!-- el_up.innerHTML has no text, because it is actually not needed -->
+    <p id="GFG_UP" 
+    style="font-size: 15px; 
+    font-weight: bold;"> 
+    </p> 
+    <p id="GFG_DOWN"> 
+    <h3>Location Seltztaldom Groß-Winternheiim und Hof Herzberg Essenheim</h3>
+    </p> 
+    <script> 
+    var el_up = document.getElementById("GFG_UP"); 
+    var el_down = document.getElementById("GFG_DOWN"); 
+    el_up.innerHTML = "";
+
+    function gfg_Run() { 
+      $(window).scrollTop($('#GFG_DOWN').position().top); 
+    } 
+    </script> 
+
     <!-- Googlemaps integration -->
-    <center>
-        <h3>Location Selztaldom Groß-Winternheim und Hof Herzberg Essenheim</h3>
+    <center>  
         <div id="googleMap" style="width:100%;height:450px;"></div>
         <script>function initMap() {
                 var Selztaldom = {
