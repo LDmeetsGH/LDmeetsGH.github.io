@@ -19,6 +19,6 @@
 
     mail($to,$email_subject,$email,$email_body,$headers);
 
-    header("Location: Confirmation2.0.html");
+    header("Location: index.html");
     
 ?>
