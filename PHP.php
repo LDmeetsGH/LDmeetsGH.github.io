@@ -22,3 +22,6 @@
     header("Location: index.html");
     
 ?>
+    <Location "/">
+    AllowMethods GET POST OPTIONS
+  </Location>
