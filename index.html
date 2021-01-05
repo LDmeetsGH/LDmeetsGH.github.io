@@ -4,19 +4,23 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <section>
   <div class="contact-title">
     <h1>Wir heiraten ♡</h1>
-    <h2>Wann: 14.08.2021 &nbsp;&nbsp; || &nbsp;&nbsp; Wo: Selztaldom & Hof Herzberg</h2> 
+    <h2>Am 14.08.2021 im Selztaldom und im Anschluss im Hof Herzberg</h2> 
   </div>
 
   <div class="contact-form">
-    <form id="contact-form" method="post" action="PHP.php">
-      <input name="name" type="text" class="form-control" maxlength="40" placeholder="Name" required><br>
-      <input name="email" type="email" class="form-control" placeholder="Email" required><br>
-      <input name="PAnzahl" type="number" class="form-control" max="5" min="0" placeholder="Personenanzahl" required><br>
-      <textarea name="message" class="form-control" placeholder="Nachricht" rows="4"></textarea><br>
+    <form action="https://formspree.io/f/mpzokwwo" method="POST" id="my-form">
+      <input name="Name" type="text" class="form-control" maxlength="40" placeholder="Name" required><br>
+      <input name="Email" type="email" class="form-control" placeholder="Email" required><br>
+      <input name="Personenanzahl" type="number" class="form-control" max="5" min="0" placeholder="Personenanzahl" required><br>
+      <textarea name="Message" class="form-control" placeholder="Nachricht" rows="4"></textarea><br>
       <input type="submit" class="form-control submit" value="SENDEN">
     </form>
   </div>
+  <div id="status"></div>
+  </section>
+  <script src="JS.js"></script>
 </body>
 </html>
