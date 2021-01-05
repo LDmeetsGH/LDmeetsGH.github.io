@@ -1,4 +1,4 @@
-﻿body{
+body{
     margin: 0;
     padding: 0;
     text-align: center;
@@ -29,7 +29,7 @@ form{
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
-    color: #fff;
+    color: white;
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -46,7 +46,39 @@ form .submit{
     margin-top: 10px; 
 }
 form .submit:hover{
-    background-color: lightgrey;
+    background-color: green;
     color: black;
     cursor: pointer; 
+}
+#status{
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#status.success{
+    background-color: green;
+    font-weight: bold;
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color: red;
+    color: white;
+    animation: status 4s ease forwards;
+}
+@keyframes status {
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
 }
