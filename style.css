@@ -1,10 +1,15 @@
 body{
-    margin: 0;
-    padding: 0;
     text-align: center;
-    background: url(WebsiteBackground3.JPG);
-    background-size: cover;
+    background-image: url('WebsiteBackground3.JPG'); 
+    background-repeat: no-repeat; 
     background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%; 
     font-family: sans-serif;
 }
 .contact-title{
