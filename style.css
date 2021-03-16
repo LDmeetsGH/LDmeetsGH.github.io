@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    text-orientation: inherit;
     background-image: url('WebsiteBackground3.JPG'); 
     background-repeat: no-repeat; 
     background-position: center;
