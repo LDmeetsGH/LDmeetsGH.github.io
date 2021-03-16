@@ -1,4 +1,4 @@
-﻿body{
+body{
     margin: 0;
     padding: 0;
     text-align: center;
@@ -57,7 +57,7 @@ form .submit{
     margin-top: 10px; 
 }
 form .submit:hover{
-    background-color: green;
+    background-color: white;
     color: black;
     cursor: pointer; 
 }
@@ -70,7 +70,7 @@ form .submit:hover{
     border-radius: 8px;
 }
 #status.success{
-    background-color: green;
+    background-color: white;
     font-weight: bold;
     animation: status 4s ease forwards;
 }
