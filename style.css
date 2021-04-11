@@ -26,9 +26,11 @@ body{
 d1 {
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
 d2 {
     color: white;
+    font-size: 16px;
 }
 
 form{
