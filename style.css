@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url('WebsiteBackground3.JPG'); 
+    background-image: url('WebsiteBackground7.png'); 
     background-repeat: no-repeat; 
     background-position: center;
     background-attachment: fixed;       
@@ -13,7 +13,7 @@ body{
 }
 .contact-title{
     margin-top: 100px;
-    color: #4F4D3C;
+    color: #766353;
     transition: all 4s ease-in-out;
 }
 .contact-title h1{
@@ -23,6 +23,14 @@ body{
 .contact-title h2{
     font-size: 16px;
 }
+d1 {
+    color: #766353;
+    font-weight: bold;
+}
+d2 {
+    color: #766353;
+}
+
 form{
     margin-top: 50px;
     transition: all 4s ease-in-out;
@@ -33,19 +41,19 @@ form{
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
-    color: #424032;
+    color: #766353;
     font-size: 18px;
     margin-bottom: 16px;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #424032;
+    color: #766353;
     opacity: 1; /* Firefox */
   }
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #424032;
+    color: #766353;
   }
   ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #424032;
+    color: #766353;
   }
 
 input{
@@ -53,7 +61,7 @@ input{
 }
 form .submit{
     border-color: #424032;
-    color: #424032;
+    color: #766353;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
