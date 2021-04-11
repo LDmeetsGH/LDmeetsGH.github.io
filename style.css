@@ -13,7 +13,7 @@ body{
 }
 .contact-title{
     margin-top: 100px;
-    color: black;
+    color: #4F4D3C;
     transition: all 4s ease-in-out;
 }
 .contact-title h1{
@@ -33,27 +33,27 @@ form{
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
-    color: black;
+    color: #424032;
     font-size: 18px;
     margin-bottom: 16px;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: black;
+    color: #424032;
     opacity: 1; /* Firefox */
   }
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: black;
+    color: #424032;
   }
   ::-ms-input-placeholder { /* Microsoft Edge */
-    color: black;
+    color: #424032;
   }
 
 input{
     height: 30px;
 }
 form .submit{
-    border-color: grey;
-    color: black;
+    border-color: #424032;
+    color: #424032;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
