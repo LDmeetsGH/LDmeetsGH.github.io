@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url('WebsiteBackground7.png'); 
+    background-image: url('WebsiteBackground9.png'); 
     background-repeat: no-repeat; 
     background-position: center;
     background-attachment: fixed;       
@@ -13,7 +13,7 @@ body{
 }
 .contact-title{
     margin-top: 100px;
-    color: #766353;
+    color: white;
     transition: all 4s ease-in-out;
 }
 .contact-title h1{
@@ -24,11 +24,11 @@ body{
     font-size: 16px;
 }
 d1 {
-    color: #766353;
+    color: white;
     font-weight: bold;
 }
 d2 {
-    color: #766353;
+    color: white;
 }
 
 form{
@@ -41,27 +41,30 @@ form{
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
-    color: #766353;
+    color: white;
     font-size: 18px;
     margin-bottom: 16px;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #766353;
+    color: white;
+    font-family: sans-serif;
     opacity: 1; /* Firefox */
   }
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #766353;
+    color: white;
+    font-family: sans-serif;
   }
   ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #766353;
+    color: white;
+    font-family: sans-serif;
   }
 
 input{
     height: 30px;
 }
 form .submit{
-    border-color: #424032;
-    color: #766353;
+    border-color: gray;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
