@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url('WebsiteBackground11.png'); 
+    background-image: url('WebsiteBackground3.JPG'); 
     background-repeat: no-repeat; 
     background-position: center;
     background-attachment: fixed;       
@@ -9,7 +9,8 @@ body{
     background-size: cover;
     height: 100%;
     width: 100%; 
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 .contact-title{
     margin-top: 100px;
@@ -26,11 +27,7 @@ body{
 d1 {
     color: white;
     font-weight: bold;
-    font-size: 20px;
-}
-d2 {
-    color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 form{
